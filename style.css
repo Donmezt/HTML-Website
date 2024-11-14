@@ -8,6 +8,11 @@ body {
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 }
+/*It was very interesting once I actually figured out the way to label what
+ I wanted to change. It helped me figure out why you want to section everything ahead of time in HTML.
+  It kinda sets a layout for you when you are working on the CSS portion of the website. 
+  If I was to start from the beginning I think my website could be fleshed out easier.
+*/
 nav ul {
     display: flex;
    list-style: none;
@@ -25,8 +30,12 @@ nav a:hover {
     background-color: #8daaff;
 }
 
+/*I think adding in drop shadows to each header gave the website more depth and interest
+*/
+
 h1 {
     background-color:rgb(15, 95, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
@@ -35,6 +44,7 @@ h1 {
 }
 h2 {
     background-color:rgb(155, 44, 252);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
@@ -43,6 +53,7 @@ h2 {
 }
 h3 {
     background-color:rgb(253, 246, 28);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
@@ -51,6 +62,7 @@ h3 {
 }
 h4 {
     background-color:rgb(36, 252, 58);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
@@ -60,6 +72,7 @@ h4 {
 h5 {
     font-size: xx-large;
     background-color:rgb(23, 174, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
@@ -68,6 +81,7 @@ h5 {
 }
 h6 {
     background-color:#ac0553;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:25px;
     padding: 10px 0;
     border-radius: 1em;
@@ -100,13 +114,15 @@ figure {
 
 .table {
     background-color: #b58dff;
-    text-align:center
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
     padding: 0px 0;
     border-radius: 1.5em;
 }
 
 .about {
     background-color: #b58dff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align:left
     padding: 0px 0;
     border-radius: 1.5em;
@@ -130,8 +146,40 @@ p{
     color:rgb(0, 0, 0);
     font-size: larger;
     font-weight: bold;
+}
 
-#socials {
+#social {
     text-align:center;
-    justify-content: center;
+    align-content: center;
+    
+
+}
+
+li {
+    margin:10px 0;
+    list-style-position: inside;
+}
+
+#project {
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(157, 255, 252);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+    border-radius: 1em;
+    text-align: center;
+    font-size: large;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+/*Could not figure out how to add a sidebar in CSS, referred to in class examples but I still could not figure it out.*/
+
+aside {
+    flex: 1;
+    background-color:rgb(152, 248, 255);
+    padding: 10px;
+    border-radius: 0.5em;
+    font-size: 20px;
 }
