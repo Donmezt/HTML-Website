@@ -24,11 +24,11 @@ Bonus: find a more efficient syntax for incrementing the counter variable used i
 // Function to display greeting and apply styles
 
 function displayGreeting() {
+  const now = new Date();
+  const hours = now.getHours();
+  const greetingElement = document.getElementById('greeting');
   let greetingText = '';
   let cssClass = '';
-  const greetingElement = document.getElementById('greeting');
-  const hours = now.getHours();
-  const now = new Date();
 
   if (hours < 12) {
     cssClass = 'morning';
