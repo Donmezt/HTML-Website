@@ -66,11 +66,8 @@ alertButton.addEventListener('mouseout', () => {
 /**Footer Javascripting */
 
 const currentYear = new Date().getFullYear();
-
 const footerText = `(c) Taner Donmez, ${currentYear}`;
-
 document.getElementById('copyright').textContent = footerText;
-
 console.log("Today's date is: " + new Date());
 
 

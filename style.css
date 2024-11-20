@@ -182,13 +182,18 @@ li {
 }
 
 footer {
-    background-color:rgb(157, 255, 252);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(157, 255, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
     border-radius: 1em;
     text-align: center;
     font-size: large;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 /*Could not figure out how to add a sidebar in CSS, referred to in class examples but I still could not figure it out.*/
