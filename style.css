@@ -185,6 +185,7 @@ aside {
     font-size: 20px;
 }
 
+/* Java script Morning, Evening and Night styling */
 #greeting {
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -205,6 +206,32 @@ aside {
   }
   
   .evening {
-    background-color: #f89318;
+    background-color: #420099;
     color: #FFF;
+  }
+
+  /*Javascript alert buttons styling */
+
+  #btn-alert {
+font-family: Arial, sans serif;
+font: size 25px;
+padding:
+background-color:
+color:
+border:
+border-radius:
+cursor: pointer;
+transition: background-color 0.7s ease;
+  }
+
+#btn-whatever {
+font-family: Arial, sans serif;
+font: size 25px;
+padding:
+background-color:
+color:
+ border:
+border-radius:
+cursor: pointer;
+transition: background-color 0.7s ease;
   }
