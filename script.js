@@ -43,6 +43,24 @@ function displayGreeting() {
 
   greetingElement.textContent = greetingText;
   greetingElement.className = cssClass;
-}
 
+  /* Button replies to greeting js */
+const alertButton = document.getElementById('btn-alert');
+
+alertButton.addEventListener('click', () => {
+  alert('+100 luck!');
+});
+
+}
 displayGreeting();
+
+
+
+
+
+
+
+
+
+
+
