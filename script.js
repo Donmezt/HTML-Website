@@ -33,5 +33,16 @@ function displayGreeting() {
   if (hours < 12) {
     cssClass = 'morning';
     greetingText = 'Good morning!'
+} else if (hours >= 12 && hours < 17) {
+  greetingText = 'Good afternoon!';
+  cssClass = 'afternoon';
+} else {
+  greetingText = 'Good evening!';
+  cssClass = 'evening'
 }
+
+greetingElement.textContent = greetingText;
+greetingElement.classname = cssClass;
+}
+
 displayGreeting();
