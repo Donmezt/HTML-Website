@@ -43,6 +43,9 @@ function displayGreeting() {
 
   greetingElement.textContent = greetingText;
   greetingElement.className = cssClass;
+}
+displayGreeting();
+
 
   /* Button replies to greeting js */
 const alertButton = document.getElementById('btn-alert');
@@ -51,8 +54,10 @@ alertButton.addEventListener('click', () => {
   alert('+100 luck!');
 });
 
-}
-displayGreeting();
+alertButton.addEventListener('mouseover', () => {
+  alertButton.innertext = ':)';
+
+});
 
 
 
