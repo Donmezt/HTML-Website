@@ -55,8 +55,12 @@ alertButton.addEventListener('click', () => {
 });
 
 alertButton.addEventListener('mouseover', () => {
-  alertButton.innertext = ':)';
+  alertButton.innerText = ':)';
 
+});
+
+alertButton.addEventListener('mouseout', () => {
+  alertButton.innerText = 'Hello!';
 });
 
 
