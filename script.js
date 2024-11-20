@@ -55,12 +55,12 @@ alertButton.addEventListener('click', () => {
 });
 
 alertButton.addEventListener('mouseover', () => {
-  alertButton.innerText = ':)';
+  alertButton.innerText = '"Hello!"';
 
 });
 
 alertButton.addEventListener('mouseout', () => {
-  alertButton.innerText = 'Hello!';
+  alertButton.innerText = 'reply';
 });
 
 /**Footer Javascripting */
@@ -72,6 +72,8 @@ console.log("Today's date is: " + new Date());
 
 
 /**Loop Javascript */
+document.getElementById('numbers').appendChild(listItem);
+
   for (let i = 1; i <= 12; i++) {
     
     const listItem = document.createElement('li');
@@ -82,8 +84,16 @@ console.log("Today's date is: " + new Date());
       listItem.textContent = 'odd';
     }
     
-    document.getElementById('numbers').appendChild(listItem);
   }
+
+  /**Project Page options buttons */
+const buttons = document.querySelectorAll('.button-link');
+
+buttons.forEach(button => {
+    button.addEventListener('click', event => {
+        console.log(`You clicked on: ${button.textContent}`);
+    });
+});
 
 
 

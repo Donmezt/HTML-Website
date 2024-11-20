@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(222, 251, 253)
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
 */
 nav ul {
     display: flex;
-   list-style: none;
+    list-style: none;
    justify-content: center;
 }
 
@@ -24,10 +24,12 @@ nav a {
     color: #0d00ff;
     padding: 1em;
 text-decoration: none;
+cursor: pointer;
 }
 
 nav a:hover {
     background-color: #8daaff;
+    color:#ffd900
 }
 
 /*I think adding in drop shadows to each header gave the website more depth and interest
@@ -113,14 +115,11 @@ figure {
   }
 
 .table {
-    background-color: #b58dff;
+    background-color: #a1c8f8;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align:center;
     padding: 0px 0;
     border-radius: 1.5em;
-}
-
-.table {
     width: 80%;
     margin: 0 auto;
 }
@@ -136,15 +135,17 @@ th, td {
     text-align: center; 
 }
 
+/* About pages hobby lists */
 .about {
-    background-color: #b58dff;
-text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align:left
-    padding: 0px 0;
+    text-align: center;
+    list-style-position: inside;
+    background-color: #a1c8f8;
     border-radius: 1.5em;
+    padding-bottom: 5px;
 }
 
+/*Red Lettering*/
 .content {
     text-align: center;
     color:red
@@ -158,6 +159,7 @@ text-align: center;
     text-align:center;
 }
 
+/*Basic <p> property change */
 p{
     text-align: center;
     color:rgb(0, 0, 0);
@@ -166,9 +168,14 @@ p{
 }
 
 #social {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c8bfda;
     text-align:center;
     align-content: center;
-    
+    list-style-position: inside;
+    border-radius: 1.5em;
+    padding-bottom: 5px;
+    cursor: pointer;
 
 }
 
@@ -177,9 +184,38 @@ li {
     list-style-position: inside;
 }
 
-#project {
-    text-align: center;
+/*Project list styling */
+#project ul {
+    list-style-type: none;
+    padding: 0;
+
 }
+
+#project li {
+    margin: 10px 0; 
+}
+
+.button-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.button-link:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/*Footer Styling*/
 
 footer {
 
@@ -199,7 +235,7 @@ footer {
 /*Could not figure out how to add a sidebar in CSS, referred to in class examples but I still could not figure it out.*/
 
 aside {
-    flex: 1;
+    text-align: center;
     background-color:rgb(152, 248, 255);
     padding: 10px;
     border-radius: 0.5em;
