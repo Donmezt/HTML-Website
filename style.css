@@ -120,6 +120,22 @@ figure {
     border-radius: 1.5em;
 }
 
+.table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
 .about {
     background-color: #b58dff;
 text-align: center;
@@ -187,7 +203,7 @@ aside {
 
 /* Java script Morning, Evening and Night styling */
 #greeting {
-    font-family: Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -213,15 +229,17 @@ aside {
   /*Javascript alert button styling */
 
   #btn-alert {
-font-family: Arial, sans serif;
-font: size 25px;
-padding: 10px 20px;
-background-color: #3caf50
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-transition: background-color 0.7s ease;
+    display: block;
+    margin: 20px auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
 
   #btn-alert:hover {
