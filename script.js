@@ -31,18 +31,18 @@ function displayGreeting() {
   let cssClass = '';
 
   if (hours < 12) {
+    greetingText = 'Good morning!';
     cssClass = 'morning';
-    greetingText = 'Good morning!'
-} else if (hours >= 12 && hours < 17) {
-  greetingText = 'Good afternoon!';
-  cssClass = 'afternoon';
-} else {
-  greetingText = 'Good evening!';
-  cssClass = 'evening'
-}
+  } else if (hours >= 12 && hours < 17) {
+    greetingText = 'Good afternoon!';
+    cssClass = 'afternoon';
+  } else {
+    greetingText = 'Good evening!';
+    cssClass = 'evening';
+  }
 
-greetingElement.textContent = greetingText;
-greetingElement.classname = cssClass;
+  greetingElement.textContent = greetingText;
+  greetingElement.className = cssClass;
 }
 
 displayGreeting();

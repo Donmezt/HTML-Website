@@ -186,24 +186,25 @@ aside {
 }
 
 #greeting {
-    font-family: Arial, sans serif;
+    font-family: Arial, sans-serif;
     padding: 20px;
-    text-align: center;
     border-radius: 5px;
+    text-align: center;
     margin: 50px auto;
-    width: 50% ;
-}
-
-.morning {
-    background-color: #FFD700;
+    width: 50%;
+  }
+  
+  .morning {
+    background-color: #ffd900; 
     color: #000;
-}
-
-.afternoon {
-    background-color: #87CEEB;
+  }
+  
+  .afternoon {
+    background-color: #1abeff; 
     color: #000;
-}
-.evening {
-    background-color: #2C3E50;
+  }
+  
+  .evening {
+    background-color: #f89318;
     color: #FFF;
-}
+  }
