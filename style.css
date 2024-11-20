@@ -1,5 +1,6 @@
 body {
     background-color:rgb(222, 251, 253)
+
 }
 
 .header {
@@ -13,23 +14,28 @@ body {
   It kinda sets a layout for you when you are working on the CSS portion of the website. 
   If I was to start from the beginning I think my website could be fleshed out easier.
 */
+
 nav ul {
-    display: flex;
-    list-style: none;
-   justify-content: center;
+display: flex;
+list-style: none;
+text-align: center;
+justify-content: center;
 }
 
 nav a {
-    border-radius: 10px;
-    color: #0d00ff;
-    padding: 1em;
+color: #0d00ff;
+display: flex;
+list-style: none;
+justify-content: center;
+padding: 1em;
+border-radius: 20px;
 text-decoration: none;
 cursor: pointer;
 }
 
 nav a:hover {
-    background-color: #8daaff;
-    color:#ffd900
+background-color: #8daaff;
+color:#ffd900
 }
 
 /*I think adding in drop shadows to each header gave the website more depth and interest
@@ -193,6 +199,10 @@ li {
 
 #project li {
     margin: 10px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:
 }
 
 .button-link {
@@ -207,9 +217,9 @@ li {
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s, color 0.3s;
+    
 }
 
-/* Hover effect */
 .button-link:hover {
     background-color: yellow;
     color: black;
